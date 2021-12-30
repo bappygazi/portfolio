@@ -1,0 +1,173 @@
+@media(max-width:575px) {
+
+    /*    navbar part css*/
+    .navbar {
+        border: 0;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+        padding: 5px 10px;
+        font-size: 25px;
+        border: 0;
+    }
+
+    .navbar-light .navbar-nav .nav-link::after {
+        display: none;
+    }
+
+    /*    banner part css*/
+    #about {
+        text-align: center;
+    }
+
+    .about-text h4 {
+        padding-top: 20px;
+    }
+
+    .about-text p {
+        font-size: 17px;
+    }
+
+    /*skill part css*/
+    .skill-text p {
+        font-size: 14px;
+    }
+
+    .skill-text {
+        padding-bottom: 30px;
+    }
+
+    .skill-content {
+        margin-top: 70px;
+    }
+
+    /*portfolio part css*/
+    #portfolio {
+        border: 0;
+    }
+
+    .portfolio-text h3 {
+        padding-bottom: 0px;
+    }
+
+    .portfolio-items {
+        margin-top: 35px;
+    }
+}
+
+@media(min-width:576px) and (max-width:767px) {
+
+    /*    navbar part css*/
+    .navbar {
+        border: 0;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+        padding: 5px 10px;
+        font-size: 20px;
+    }
+
+    .navbar-light .navbar-nav .nav-link::after {
+        display: none;
+    }
+
+    /*    banner part css*/
+    #about {
+        text-align: center;
+    }
+
+    .about-text h4 {
+        padding-top: 20px;
+    }
+
+    /*skill part css*/
+
+    .skill-text {
+        padding-bottom: 30px;
+    }
+
+    .skill-content {
+        margin-top: 70px;
+    }
+
+    /*portfolio part css*/
+    #portfolio {
+        border: 0;
+    }
+
+    .portfolio-text h3 {
+        padding-bottom: 0px;
+    }
+
+    .portfolio-items {
+        margin-top: 35px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+    /*    navbar part css*/
+    .navbar {
+        border: 0;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+        padding: 5px 10px;
+        font-size: 20px;
+    }
+
+    .navbar-light .navbar-nav .nav-link::after {
+        display: none;
+    }
+
+    /*    banner part css*/
+    #about {
+        text-align: center;
+    }
+
+    .about-text h4 {
+        padding-top: 20px;
+    }
+
+    .about-text p {
+        font-size: 17px;
+    }
+
+    /*skill part css*/
+    .skill-text p {
+        font-size: 14px;
+    }
+
+    .skill-text {
+        padding-bottom: 30px;
+    }
+
+    .skill-content {
+        margin-top: 70px;
+    }
+
+    /*portfolio part css*/
+    #portfolio {
+        border: 0;
+    }
+
+    .portfolio-text h3 {
+        padding-bottom: 0px;
+    }
+
+    .portfolio-items {
+        margin-top: 35px;
+    }
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+    .skill-font li {
+        font-size: 15px;
+    }
+}
