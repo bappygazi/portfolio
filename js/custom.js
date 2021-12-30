@@ -44,7 +44,7 @@ $(function () {
     }
   });
 
-  // back to top
+  //owl-carousel
 
   $(".owl-carousel").owlCarousel({
     items: 4,
