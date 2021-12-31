@@ -219,27 +219,26 @@
       </div>
       <div class="row m-auto">
         <div class="col-lg-7 m-auto">
-          <div class="form">
+          <form action="https://gmail.us20.list-manage.com/subscribe/post?u=fe4758470c0e6c9ffe9664911&amp;id=f52ddbf382" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             <div class="row">
               <div class="col">
-                <input type="text" class="form-control input-form border-primary bg-light" name="name" placeholder="First name" aria-label="First name" />
+                <input type="text" class="form-control input-form border-primary bg-light" name="NAME" id="mce-NAME" placeholder="First name" aria-label="First name" />
               </div>
               <div class="col">
-                <input type="email" class="form-control input-form border-primary bg-light" name="email" placeholder="Your Email" aria-label="Last name" />
+                <input type="email" class="form-control input-form border-primary bg-light required email" name="EMAIL" id="mce-EMAIL" placeholder="Your Email" aria-label="Last name" />
               </div>
             </div>
             <div class="comment-box pt-4">
               <div class="mb-3">
-                <label for="message" class="form-label"></label>
-                <textarea class="form-control border-primary bg-light" id="message" name="message" rows="6" placeholder="Your Message" spellcheck="true"></textarea>
+                <textarea class="form-control border-primary bg-light" name="MESSAGE" id="mce-MESSAGE" rows="6" placeholder="Your Message" spellcheck="true"></textarea>
               </div>
             </div>
             <div class="button text-center pt-4">
               <a href="#">
-                <button type="submit" class="btn btn-primary text-white font-weight-bold py-3 px-5">Send Message</button>
+                <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary text-white font-weight-bold py-3 px-5">Send Message</button>
               </a>
             </div>
-          </div>
+          </form>
         </div>
       </div>
     </section>
@@ -280,6 +279,20 @@
     <!-- Option 2: OwlCarousel2 -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script type="text/javascript" src="js//bootstrap.min.js"></script>
+    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript">
+      (function ($) {
+        window.fnames = new Array();
+        window.ftypes = new Array();
+        fnames[1] = "NAME";
+        ftypes[1] = "text";
+        fnames[0] = "EMAIL";
+        ftypes[0] = "email";
+        fnames[2] = "MESSAGE";
+        ftypes[2] = "text";
+      })(jQuery);
+      var $mcj = jQuery.noConflict(true);
+    </script>
   </body>
 </html>
