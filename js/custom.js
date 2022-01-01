@@ -51,7 +51,7 @@ $(function () {
     nav: false,
     loop: true,
     dots: false,
-    autoplay: false,
+    autoplay: true,
     responsiveClass: true,
     autoplayTimeout: 2000,
     responsive: {
@@ -59,10 +59,10 @@ $(function () {
         items: 1,
       },
       720: {
-        items: 3,
+        items: 1,
       },
       1000: {
-        items: 4,
+        items: 2,
       },
     },
   });
